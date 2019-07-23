@@ -41,7 +41,7 @@ int main()
     auto tm = *std::localtime(&t);
     std::cout << std::put_time(&tm, "%d-%m-%Y %H-%M-%S") << std::endl;
 }
-{% highlight c %}
+{% endhighlight %}
 
 `std::put_time` is a stream manipulator, therefore it could be used together with
 
@@ -64,4 +64,4 @@ int main()
 
     std::cout << str << std::endl;
 }
-{% highlight c %}
+{% endhighlight %}
